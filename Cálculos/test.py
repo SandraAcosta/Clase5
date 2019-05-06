@@ -15,29 +15,25 @@ r = Rectangulo()
 r.setPuntos(p1,p2)
 r.arearec()
 r.perimetrorec()
-print r.area, r.perimetro
 
 t = Triangulo()
 t.setPuntos(p1,p2)
 t.areatri()
 t.perimetri()
-print t.area, t.perimetro
 
 c = Circulo()
 c.setPuntos(p1,p2)
 c.areacir()
 c.perimetrocir()
-print c.area, c.perimetro
 
 s = Cuadrado()
 s.setPuntos(p1,p2)
 s.areacua()
 s.perimetrocua()
-print s.area, s.perimetro
 
-print r.area, r.perimetro
-print t.area, t.perimetro
-print c.area, c.perimetro
-print c.area, c.perimetro
+print "el area del rectangulo es {resultado1} y el perimetro es {resultado2}".format(resultado1=r.area, resultado2=r.perimetro)
+print "el area del triangulo es {resultado1} y el perimetro es {resultado2}".format(resultado1=t.area, resultado2=t.perimetro)
+print "el area del circulo es {resultado1} y el perimetro de la circunferencia es {resultado2}".format(resultado1=c.area, resultado2=c.perimetro)
+print "el area del cuadrado es {resultado1} y el perimetro es {resultado2}".format(resultado1=s.area, resultado2=s.perimetro)
 
 
